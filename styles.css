@@ -1,0 +1,35 @@
+*{margin: 0px;
+padding: 0px;}
+
+
+.banner{
+    background-color: rgba(229, 84, 115, 0.10);;
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-content{
+    padding-left: 100px;
+    padding-top: 197px;
+    height: 100vh;
+    margin: auto;}
+
+
+.button{
+    background-color: red;
+    border-radius: 8px;
+    border:20px;
+    color: white;
+    
+    gap: 10px;
+}
+
+.banner image{
+    width: 635px;
+height: 800px;
+background:rgba(229, 84, 115, 0.10) ;;
+padding-top: 50px;
+padding-right: 240px;
+}
+
