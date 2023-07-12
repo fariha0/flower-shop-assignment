@@ -3,35 +3,43 @@ padding: 0px;}
 
 
 .banner{
-    background-color: rgba(229, 84, 115, 0.10);;
+    
     height: 850px;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
+    padding-top: 20px;
 }
 .banner-content{
-    padding-left: 100px;
-    padding-top: 197px;
+   
     height: 100vh;
-    margin: auto;}
+     align-items: center;
+    margin-bottom: 20px;}
+
+    .banner-small-text{  
+        color: #27272799;
+        font-size: large;
+        margin-top: 20px;
+    }
 
 
 .button{
     background-color: red;
-    border-radius: 8px;
-    border:20px;
+    border-radius: 5px;
+    border:10px;
     color: white;
-    padding: 20px 43px;
-    gap: 10px;
+    
+    gap: 10px; height: 40px ;width: 90px;
+    margin-top: 20px;
 }
 
 .banner image{
-    width: 635px;
-height: 800px;
-background:rgba(229, 84, 115, 0.10) ;;
-padding-top: 50px;
-padding-right: 240px;
+    width: 50px;
+height: 50px;
 }
+.ban-img{height: 600px;
+width: 600px;
+padding-top: 50px;}
 
 .hot-deal{
     background-color: rgba(229, 84, 115, 0.10);;
@@ -40,27 +48,41 @@ padding-right: 240px;
     justify-content:space-evenly;
     align-items: center;
 }
+
+.hot-deal-text{ text-align: center;}
 .intsa{
     margin:100px 100px 100px 100px;
     
     text-align: center;
 }
+
+.insta-text{margin-top: 20px;}
+
 .insta-img{
     display: flex;
+    justify-content: center;
     
 gap: 10px;
-align-items: center;margin:30px 100px 100px 100px;
-    
+align-items: center;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 0px;
+ }
 
-}
-/* .info{ */
+
+ /* .info{ */
     width: 1440px;
 height: 449px;
 
 .latest-deal{
     background-image: url("./Rectangle\ 9.png");
-}
+    align-items: center;
 
+}
+.latest-form-button{
+    display: flex;
+    justify-content: center;
+}
 .flower{
     color: #E55473;
 }
