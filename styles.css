@@ -56,3 +56,32 @@ align-items: center;margin:30px 100px 100px 100px;
 /* .info{ */
     width: 1440px;
 height: 449px;
+
+.latest-deal{
+    background-image: url("./Rectangle\ 9.png");
+}
+
+.flower{
+    color: #E55473;
+}
+
+.footer{
+    background: #111010;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 100px;
+    
+
+
+}
+
+.footer-text{
+    font-size: 14px;
+    margin-top: 20px;
+    
+}
+
+.footer-symbol{color: #FFFFFF66;
+    font-size: 12px;
+    margin-top: 20px;}
