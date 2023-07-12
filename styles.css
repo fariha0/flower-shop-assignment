@@ -42,7 +42,7 @@ width: 600px;
 padding-top: 50px;
 margin-top: 20px;}
 
-.hot-deal{
+ .hot-deal{ 
     background-color: rgba(229, 84, 115, 0.10);;
     margin-top: 50px;
     display: flex;
@@ -52,7 +52,7 @@ margin-top: 20px;}
 height: 480px;
 }
 
-.hot-deal-text{ text-align: center;}
+ .hot-deal-text{ text-align: center;} */
 
 
 .intsa{
@@ -61,7 +61,9 @@ height: 480px;
     text-align: center;
 }
 
-.insta-text{margin-top: 20px;}
+.insta-text{margin-top: 20px;
+    text-align: center;
+}
 
 .insta-img{
     display: flex;
@@ -71,23 +73,17 @@ gap: 10px;
 align-items: center;
 margin-left: 50px;
 margin-right: 50px;
-margin-top: 0px;
+margin-top: 30px;
  }
+ .head{text-align: center;
+margin-top: 30px;}
 
 
- /* .info{ */
-    width: 1440px;
-height: 449px;
+ 
 
-.latest-deal{
-    background-image: url("./Rectangle\ 9.png");
-    align-items: center;
 
-}
-.latest-form-button{
-    display: flex;
-    justify-content: center;
-}
+
+
 .flower{
     color: #E55473;
 }
@@ -113,7 +109,7 @@ height: 449px;
     font-size: 12px;
     margin-top: 20px;}
 
-/* featured */
+/* featured  */
 
 .featured-flower{
     margin:100px 100px 100px 100px;
@@ -153,3 +149,63 @@ border-radius: 200px 200px 0px 0px;
     text-align: center;
     text-decoration-line: underline;
  }
+
+ /* latest */
+
+
+ .deal{background-image: url("./Rectangle\ 9.png");
+
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left:315px ;
+margin-right: 315px;
+align-items: center;
+height: 300px;}
+
+.latest-form-button{
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    padding-top: 70px;
+
+}
+.form{
+    border-radius: 8px;
+background: #FFF;width: 700px;
+height: 40px;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.writing{
+    text-align: center;
+    padding-top:50px;
+    
+}
+
+.extra{
+background-color: bisque;
+margin-top: 30px;
+height: 400px;
+
+
+}
+
+.extra-head{
+    text-align: center;
+    color: #E55473;
+    padding-top: 20px;
+}
+.list{
+    padding-left: 60px;
+    font-size: 20px;
+    color: brown;
+    margin-top: 10px;
+}
+
+.middle{
+    font-size: 25px;
+    padding-left: 60px;
+}
