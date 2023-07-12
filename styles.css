@@ -160,7 +160,8 @@ margin-bottom: 30px;
 margin-left:315px ;
 margin-right: 315px;
 align-items: center;
-height: 300px;}
+height: 300px; 
+background-size: cover;}
 
 .latest-form-button{
     align-items: center;
@@ -170,13 +171,19 @@ height: 300px;}
 
 }
 .form{
-    border-radius: 8px;
+    border: none;
 background: #FFF;width: 700px;
+text border:none;
 height: 40px;
 }
 
 ::placeholder{
     text-align: center;
+    text-justify: auto;
+}
+
+.input{
+    text border: 0px;
 }
 
 .writing{
@@ -209,3 +216,20 @@ height: 400px;
     font-size: 25px;
     padding-left: 60px;
 }
+
+.src-eng{
+    margin-top: 30px;
+    display: inline;
+    margin-left: 40px;
+    gap: 20px;
+}
+
+.src-eng , list{
+    display: flex;
+}
+
+.deliver{
+    padding-top: 2px;
+}
+
+ 
